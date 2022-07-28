@@ -36,3 +36,84 @@ body {
 .bg-about {
     background: #F4FAFD;
 }
+
+.text-dark-grey {
+    color: #777777;
+}
+
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 29, 29, 0.7);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    min-height: 60vh;
+}
+
+.devider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
+
+.icons .fa-brands {
+    color: white;
+    font-size: 18px;
+    margin: 0 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+
+.icons .fa-brands:hover {
+    background-color: white;
+    color: #0d6efd;
+    transition: all ease-in 200ms;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .slide-text h1 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .slide-text p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .slide-text h1 {
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 85px;
+    }
+
+    .slide-text p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .slide-text h1 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .slide-text p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
