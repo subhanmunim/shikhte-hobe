@@ -5,3 +5,34 @@ body {
 .navbar-brand {
     color: #4A4A4A;
 }
+
+.text-grey {
+    color: #F4F4F4;
+}
+
+.text-dark-grey {
+    color: #777777;
+}
+
+.h-100 {
+    height: 100%;
+    width: auto;
+}
+
+.carousel-item img {
+    height: 700px;
+    width: 1320px;
+}
+
+.slider-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 29, 29, 0.7);
+}
+
+.bg-about {
+    background: #F4FAFD;
+}
